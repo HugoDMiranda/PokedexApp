@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.pagination button {
+  margin: 0 25px;
+  border-radius: 15px;
+  width: 33px;
+  height: 33px;
+  background:linear-gradient(110deg,red 50%, white 50%);
+  font-weight: 700;
+  font-size: 25px;
+}

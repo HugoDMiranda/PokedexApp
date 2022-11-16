@@ -1,0 +1,111 @@
+.top-pokeinfo {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(199, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.img-pokeinfo {
+  width: 300px;
+}
+
+.stats-pokeinfo {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+
+.stats-pokeinfo li {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 1px;
+  list-style: none;
+  background: linear-gradient(
+    110deg,
+    rgb(199, 0, 0) 60%,
+    rgb(141, 141, 141) 40%
+  );
+  display: flex;
+  border-radius: 5px;
+  font-weight: 700;
+  justify-content: space-around;
+}
+
+.name-pokeinfo {
+  display: flex;
+  margin-left: 25px;
+  text-transform: capitalize;
+}
+
+.sub-top-pokeinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.number-pokeinfo {
+  display: flex;
+  margin-left: 5px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(110deg, red 50%, white 50%);
+  border: 3px solid black;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.abilities {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  text-transform: capitalize;
+  background: linear-gradient(
+    110deg,
+    rgb(0, 187, 211) 50%,
+    rgb(94, 217, 255) 50%
+  );
+  font-weight: 500;
+}
+
+.description {
+  background-color: #66ccff;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-stats-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.types-pokeinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .img-stats-container {
+    flex-direction: row;
+  }
+  .pokeinfo {
+    margin-top: 380px;
+    width: 80%;
+  }
+  .img-pokeinfo {
+    width: 200px;
+    flex: 1;
+  }
+  .stats-pokeinfo {
+    flex: 2;
+  }
+}
