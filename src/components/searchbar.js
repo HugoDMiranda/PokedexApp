@@ -11,14 +11,14 @@ function Searchbar({ infoPokemon }) {
 
   const onClick = async () => {
     if (search !== "") {
-      const data = await searchPokemon(search);
+      const data = await searchPokemon(search.toLowerCase());
       infoPokemon(data);
     }
   };
 
   const onKey = async (e) => {
     if (e.key === "Enter" && search !== "") {
-      const data = await searchPokemon(search);
+      const data = await searchPokemon(search.toLowerCase());
       infoPokemon(data);
     }
   };
