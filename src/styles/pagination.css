@@ -10,7 +10,8 @@
   border-radius: 15px;
   width: 33px;
   height: 33px;
-  background:linear-gradient(110deg,red 50%, white 50%);
+  background: linear-gradient(110deg, red 50%, white 50%);
   font-weight: 700;
   font-size: 25px;
+  cursor: pointer;
 }

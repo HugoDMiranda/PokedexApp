@@ -4,24 +4,22 @@ import "../styles/searchbar.css";
 
 function Searchbar({ infoPokemon }) {
   const [search, setSearch] = useState("");
-  const [pokemon, setPokemon] = useState();
-  // const [input, setInput] = useState('')
 
   function onChange(e) {
     setSearch(e.target.value);
   }
 
-  const onClick = async (e) => {
-    const data = await searchPokemon(search);
-    await setPokemon(data);
-    infoPokemon(pokemon);
+  const onClick = async () => {
+    if (search !== "") {
+      const data = await searchPokemon(search);
+      infoPokemon(data);
+    }
   };
 
   const onKey = async (e) => {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && search !== "") {
       const data = await searchPokemon(search);
-      await setPokemon(data);
-      infoPokemon(pokemon);
+      infoPokemon(data);
     }
   };
 

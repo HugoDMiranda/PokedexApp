@@ -11,9 +11,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 87vh;
+  height: 95%;
   width: 99%;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 .list {
@@ -30,16 +30,13 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .pokemon-container {
-  height: 100%;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin-top: 50px;
 }
 
@@ -51,9 +48,6 @@ body {
     margin-top: 60px;
   }
   .pokemon-container {
-    height: 25px;
-    margin-top: 300px;
-    margin-bottom: 300px;
     justify-content: center;
   }
 }

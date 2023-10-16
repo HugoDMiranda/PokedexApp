@@ -1,15 +1,15 @@
 .searchbar-container {
   display: flex;
-  margin: 0px auto;
-  padding: 0 20px;
+  width: 70%;
+  margin-bottom: 5px;
+  margin-right: 25px;
   align-items: center;
-  width: 50%;
+  justify-content: center;
 }
 
 .searchbar {
-  background: white;
-  margin-right: 20px;
-  width: 80%;
+  margin-right: 10px;
+  width: 100%;
   border-radius: 50px;
 }
 

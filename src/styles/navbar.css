@@ -2,8 +2,9 @@
   background: linear-gradient(110deg, red 50%, white 50%);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .navbar-image {

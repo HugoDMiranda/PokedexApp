@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <div className="App">
-        <Navbar infoPokemon={(poke) => setPokeDex(poke)} />
+        <Navbar infoPokemon={(poke) => setPokeDex(poke)} pokemons={pokemons} />
       </div>
       <div className="container">
         <div className="pokemon-container">

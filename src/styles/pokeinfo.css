@@ -7,6 +7,7 @@
   align-items: center;
   padding: 5px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .img-pokeinfo {
@@ -47,6 +48,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .number-pokeinfo {
@@ -86,6 +88,7 @@
 .img-stats-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .types-pokeinfo {
@@ -98,8 +101,7 @@
     flex-direction: row;
   }
   .pokeinfo {
-    margin-top: 380px;
-    width: 80%;
+    width: 95%;
   }
   .img-pokeinfo {
     width: 200px;
