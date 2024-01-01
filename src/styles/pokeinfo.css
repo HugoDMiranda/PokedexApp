@@ -111,3 +111,7 @@
     flex: 2;
   }
 }
+
+.img-stats-container div {
+  background-color: gray;
+}
